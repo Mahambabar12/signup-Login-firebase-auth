@@ -38,7 +38,8 @@ function Login() {
   return (
     <div className={styles.container}>
       <div className={styles.innerBox}>
-        <h1 className={styles.heading}>Login</h1>
+        <h1 className={styles.heading}  style={{color:"green"}}>SAYLANI WALFARE</h1>
+        <h3 style={{color:"rgb(4,76,156)"}}>ONLINE MARKET PLACE</h3>
 
         <InputControl
           label="Email"
@@ -57,13 +58,13 @@ function Login() {
 
         <div className={styles.footer}>
           <b className={styles.error}>{errorMsg}</b>
-          <button disabled={submitButtonDisabled} onClick={handleSubmission}>
-            Login
+          <button disabled={submitButtonDisabled} onClick={handleSubmission} style={{backgroundColor:"green"}}>
+            Sign In
           </button>
           <p>
             Already have an account?{" "}
             <span>
-              <Link to="/signup">Sign up</Link>
+              <Link style={{color:"green"}} to="/Login">Sign up</Link>
             </span>
           </p>
         </div>

@@ -43,7 +43,8 @@ function Signup() {
   return (
     <div className={styles.container}>
       <div className={styles.innerBox}>
-        <h1 className={styles.heading}>Signup</h1>
+        <h1 className={styles.heading} style={{color:"green"}}>SAYLANI WALFARE</h1>
+        <h3 style={{color:"rgb(4,76,156)"}}>ONLINE MARKET PLACE</h3>
 
         <InputControl
           label="Name"
@@ -69,13 +70,13 @@ function Signup() {
 
         <div className={styles.footer}>
           <b className={styles.error}>{errorMsg}</b>
-          <button onClick={handleSubmission} disabled={submitButtonDisabled}>
-            Signup
+          <button onClick={handleSubmission} disabled={submitButtonDisabled} style={{backgroundColor:"green"}}>
+            Sign Up
           </button>
           <p>
             Already have an account?{" "}
             <span>
-              <Link to="/login">Login</Link>
+              <Link style={{color:"green"}} to="/Login">Sign in</Link>
             </span>
           </p>
         </div>

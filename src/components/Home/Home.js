@@ -6,12 +6,13 @@ function Home(props) {
     <div>
       <div>
         <h1>
-          <Link to="/login">Login</Link>
+          <img  src="https://lh3.googleusercontent.com/iFE72aP_chwJsQVjtpli6GGKt11I3Ayhs_RCyl9Z-0IsgVEW7VfzJE2cJnUu3Gc9ckEAqmA3p4-N-D0=h360" width="25%" />
+          <h3 style={{color:"green"}}>SAYLANI WALFARE</h3>
+          <h6 style={{color:"rgb(4,76,156)"}}>ONLINE MARKET PLACE</h6><br></br><br></br><br></br><br></br><br></br>
+          <Link  style={{backgroundColor:"green", padding:"10px", marginButtom:"10px",color:"white",textDecoration :"none"}} to="/signup">Get Started</Link>
         </h1>
         <br />
-        <h1>
-          <Link to="/signup">Signup</Link>
-        </h1>
+       
       </div>
 
       <br />
